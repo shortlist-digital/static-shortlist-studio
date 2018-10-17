@@ -1,0 +1,19 @@
+{
+    "name": "shortlist-digital/static-shortlist-studio",
+    "description": "A homepage for the dev team",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shortlist Studio",
+            "email": "hi@shortlist.studio"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "StaticShortlistStudio\\": "app/"
+        }
+    },
+    "require": {}
+}
